@@ -1,30 +1,37 @@
-# tutorial-python-cli
-Python CLI tutorial - an example project
+# Tutorial: Python CLI
+
+An example project for CLI tool implemented in Python.
+
+**This example:**
+
+- defines project structure
+- tests
+- is using Makefile
+- is using virtual environment
+- provides Dockerfile
+- is using Typer - Python CLI library
+- providing installation on the system
+
+**Requirements:**
+ - Python 3
+
+**Resources:**
+
+- [https://docs.python-guide.org/writing/structure](https://docs.python-guide.org/writing/structure)
+- [https://trstringer.com/easy-and-nice-python-cli](https://trstringer.com/easy-and-nice-python-cli)
+- [https://realpython.com/python-application-layouts](https://realpython.com/python-application-layouts)
 
 
-https://docs.python-guide.org/writing/structure/
-
-Install python
-
-https://opensource.com/article/19/5/python-3-default-mac
+**Install python**
 
 `brew install python`
 
-Add aliases to ~/.zshrc
+Optionally add aliases to `~/.zshrc`, open editor using `nano ~/.zshrc`
 ```
 alias python=/usr/bin/python3
 alias pip=/usr/bin/pip3
 ```
 
-`nano ~/.zshrc`
-
-
-https://trstringer.com/easy-and-nice-python-cli/
-
-Install requirements
-
-`python -m pip install -r requirements.txt`
-
-Switch environment
+**Activate**
 
 `source venv/bin/activate`
