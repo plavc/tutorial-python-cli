@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='pycli',
+    name='tutorpy',
     version='0.1.0',
-    packages=['pycli'],
+    packages=['tutorpy'],
     entry_points={
         'console_scripts': [
-            'pycli = pycli.__main__:main'
+            'tutorpy = tutorpy.__main__:main'
         ]
     })

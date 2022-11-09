@@ -1,12 +1,14 @@
 
 init:
-	pip install -r requirements.txt
+	python -m pip install -r requirements.txt
 
 test:
-	py.test tests
-
-.PHONY: init test
+	pytest
 
 venv:
 	python -m venv ./venv
-	source venv/bin/activate
+
+install:
+	python -m pip install -e .
+
+.PHONY: init test

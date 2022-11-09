@@ -20,3 +20,11 @@ alias pip=/usr/bin/pip3
 
 
 https://trstringer.com/easy-and-nice-python-cli/
+
+Install requirements
+
+`python -m pip install -r requirements.txt`
+
+Switch environment
+
+`source venv/bin/activate`
